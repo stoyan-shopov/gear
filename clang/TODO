@@ -1,0 +1,4 @@
+
+fix the generated filenames (file-prefix for the parser, also for the lexer)
+make the parser really pure - supply an extra argument; make also the scanner reentrant (%option reentrant, an extra argument (not really needed))
+get back to c++; the computer i am currently hacking on is too slow, so i reverted to c in order to cut down compilation times
